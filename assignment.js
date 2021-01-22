@@ -1,5 +1,6 @@
+// https://github.com/mozaddeds/assignment.js
 
-
+// Problem 1
 
 function kilometerToMeter(kilo) {
     if (kilo < 0) {
@@ -13,10 +14,13 @@ function kilometerToMeter(kilo) {
     return meter;
 }
 
-var distance = kilometerToMeter(100);
+var distance = kilometerToMeter(100);                   //calling function
 console.log(distance);
 
+// Problem 1 ended
 
+
+// Problem 2 started
 
 function budgetCalculator(watchQuantity, mobileQuantity, laptopQuantity) {
     const watchPrice = 50;
@@ -34,10 +38,13 @@ function budgetCalculator(watchQuantity, mobileQuantity, laptopQuantity) {
     return total;
 }
 
-var budget = budgetCalculator(5, 6, 7);
+var budget = budgetCalculator(5, 6, 7);                         //calling function
 console.log(budget);
 
+// Problem 2 ended
 
+
+// Problem 3 started
 
 function hotelCost(days) {
     if (days <=0) {
@@ -59,11 +66,13 @@ function hotelCost(days) {
     return cost;
 }
 
-var hotel = hotelCost(21)
+var hotel = hotelCost(21)                           //calling function
 console.log(hotel)
 
+// Problem 3 ended
 
 
+// Problem 4 started
 
 function megaFriend(list) {
 
@@ -87,5 +96,7 @@ function megaFriend(list) {
 }
 
 var nameList = ['Shaaz', 'Audree', 'Yeasin', 'Mugdho', 'Nishat', 'Thowa'];
-var large = megaFriend(nameList);
+var large = megaFriend(nameList);           //calling function
 console.log(large);
+
+// Problem 4 ended
